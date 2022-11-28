@@ -526,7 +526,7 @@ class TestHBNBCommand(TestCase):
 
     def test_16(self):
         '''tests for task 16 about dot commands syntax for the update command
-            but using dictionarry arguments and quoted strings
+            but using dictionary arguments and quoted strings
         '''
         console = HBNBCommand()
         buf = StringIO()
