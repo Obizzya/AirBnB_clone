@@ -132,7 +132,7 @@ class HBNBCommand(cmd.Cmd):
         return stop
 
     def emptyline(self):
-        ''' overrides the bhavior of an empty line'''
+        '''overrides the bhavior of an empty line'''
         pass
 
     def do_quit(self, arg):
